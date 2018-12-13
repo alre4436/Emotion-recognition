@@ -29,7 +29,7 @@ The idea of this project is to construct a CNN model and using transfer learning
 
 2.1 Data:
 
-Each class contian with 50 images So we have 203 images for training and 55 for testing 
+Each class contian with 50 images in each folder. So we have 203 images for training and 55 for testing 
 
 
 
@@ -93,7 +93,7 @@ Each class contian with 50 images So we have 203 images for training and 55 for 
 The following preprocessing tasks are developed for each image:
 
 Visual inspection to detect images with low quality or not representative
-Image resizing: Transform images to 64x64x3
+Image resizing: Transform images to 50x50x3
 Crop images: Automatic or manual Crop
 Other to define later in order to improve model quality
 
